@@ -36,6 +36,7 @@
 		margin: 0px;
 		border: 2px solid black;
 		text-align: center;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		font-size: 125%;
 		font-weight: bold;
 		background-color: sandybrown;
@@ -45,7 +46,7 @@
 		padding: 5px;
 		border: none;
 		background-color: sandybrown;
-		font-family: Helvetica;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		color: black;
 		margin: 0px;
 		height: 200px;
@@ -94,6 +95,7 @@
 		margin: 0px;
 		border: 1px solid black;
 		text-align: center;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		font-size: 125%;
 		font-weight: bold;
 		background-color: greenyellow;
@@ -114,14 +116,14 @@
 		width: 90%;
 	}
 	
-	/*desktop version*/
+	/*VERSION: DESKTOP*/
 	@media (min-width: 992px){
 		.column-lg-4 {
 			float: left;
 			width: 32%;
 		}
 	}
-	/*tablet version*/
+	/*VERSION: TABLET*/
 	@media (min-width: 768px) and (max-width: 991px){
 		.colmn-md-6 {
 			float: left;
@@ -136,7 +138,7 @@
 			margin-right: auto;
 		}
 	}
-	/*mobile version*/
+	/*VERSION: MOBILE PHONE*/
 	@media (max-width: 767px){
 		.colmn-sm-12 {
 			float: left;
